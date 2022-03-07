@@ -55,37 +55,39 @@ const addManager = () => {
             },
             {
                 type: "input",
-                name: "phone",
-                message: "What is the team manager's office phone number?",
-                validate: phoneInput => {
-                    if (isNaN(phoneInput)) {
-                        console.log ("Please enter the office phone number without symbols or spaces.");
+                name: "officeNumber",
+                message: "What is the team manager's office number?",
+                validate: nameInput => {
+                    if (isNaN(nameInput)) {
+                        console.log ("Please enter the office number.");
                         return false;
                     } else {
                         return true;
                     }
 
                 }
-            }
+            } 
         ])
 
         // Add the new team manager information and push it to the teamArray
         .then(managerInput => {
-            const {name, id, email, phone} = managerInput;
-            const manager = new Manager(name, id, email, phone);
+            const {name, id, email, officeNumber} = managerInput;
+            const manager = new Manager(name, id, email, officeNumber);
 
             teamArray.push(manager);
             console.log(manager);
         })
 };
 
+             
+
 // When the team manager is added, the user is presented with the option to add a new employee 
 // to the team, i.e., engineer or intern, or to finish building the team
 const addEmployee = () => {
-    console.log(`
-    -------------------------------------------------------
-    Welcome to your team! Proceed to add your team members.
-    -------------------------------------------------------
+    console.log (`
+    -------------------------------------------------------------
+    Welcome to your team! Proceed to add a team member or to exit.
+    -------------------------------------------------------------
     `);
 
     return inquirer.prompt ([
@@ -96,12 +98,10 @@ const addEmployee = () => {
                 choices: ["Engineer", "Intern"],
             },
             {
-
                 // When user selects a role, prompts for the role start
                 // Prompts for engineer includes: employee's name, ID, email, and GitHub username
                 // Prompts for intern includes: employee's name, ID, email, and school
                 // After entering employee information, user is taken back to the menu
-
                 type: "input",
                 name: "name",
                 message: "What is the employee's name?",
@@ -171,7 +171,7 @@ const addEmployee = () => {
                 type: "confirm",
                 name: "confirmAddEmployee",
                 message: "Would you like to add more team members?",
-                default: true
+                default: false
             }
         ])
         // Add the new employee information and push it to teamArray
