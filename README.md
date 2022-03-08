@@ -67,10 +67,20 @@ To install Inquirer dependencies, run:
 npm install inquirer
 ```
 
-For jest:
+For Jest:
 ```
 npm install --save-dev jest
 ```
+
+To troubleshoot testing errors, the following section is added to the ```package.json``` after Jest install, so the test would run:
+```
+{
+  "scripts": {
+    "test": "jest"
+  }
+}
+```
+
 
 The application is invoked through the following command:
 
@@ -90,13 +100,13 @@ Please refer to the walk-through video above, as well as the following instructi
 ### Features
 The application has the following features and functionalities:
 
-1. Upon initilizing the application, the user or manager is prompted to enter the following information about the team manager: name, employee ID, email address, and office number.
+1. Upon initializing the application, the user or manager is prompted to enter the following information about the team manager: name, employee ID, email address, and office number.
 
 2. When the manager's information is added and pushed to the repository, the user is presented with the menu, which gives the user the option to add more team members, i.e., Engineer and/or Intern, or to finish building his/her team. In which case, the user will exit the application and a HTML file containing the information entered by the user is generated.
 
 3. Should the user choose to add an engineer, the user is prompted to enter the following information: engineer's name, employee ID, email address, and GitHub username.
 
-4. When the new engineer information is added and pushed to the repository, the user is taken back to the menu. This means he could add more engineers and/or interns, depending on the number of team members he/she has. Otherwise, the user can opt to finish building the team and exit the application.
+4. When the new engineer information is added and pushed to the repository, the user is taken back to the menu. This means he/she could add more engineers and/or interns, depending on the number of team members he/she has. Otherwise, the user can opt to finish building the team and exit the application.
 
 5. Should the user choose to add an intern, the user is prompted with the following information: intern's name, employee ID, email address, and school. 
 
