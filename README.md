@@ -72,7 +72,7 @@ For Jest:
 npm install --save-dev jest
 ```
 
-To troubleshoot testing errors, the following section is added to the ```package.json``` after Jest install, so the test would run:
+After Jest install, the following section is also added to the ```package.json``` to troubleshoot testing errors:
 ```
 {
   "scripts": {
@@ -177,7 +177,18 @@ Here is a [generated team profile sample in a manual test the author conducted,]
 
 2. The unit tests for the application's `Employee`, `Manager`, `Engineer`, and `Intern` classes are located in the `_tests_` directory. 
 
-To run the unit tests, the application uses [Jest](https://www.npmjs.com/package/jest), by invoking the following command on the integrated terminal:
+To run the unit tests, the application uses [Jest](https://www.npmjs.com/package/jest).
+
+To troubleshoot testing errors, the following section is added to the ```package.json``` after Jest install, for the test to run:
+```
+{
+  "scripts": {
+    "test": "jest"
+  }
+}
+```
+
+The test is initialized by invoking the following command on the integrated terminal:
 ```
 npm run test
 ```
