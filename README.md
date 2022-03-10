@@ -1,15 +1,16 @@
 
   
-# 10 OOP: Team Profile Generator
+# Team Profile Generator
+A Unit 10, Object-Oriented Programming (OOP) assignment.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
 ## Description
 
-This is a Node.js command-line interface (CLI) application that takes in information about employees in a software engineering team, then generates a HTML webpage that displays summaries for each person. 
+This is a Node.js command-line interface (CLI) application that takes in information about employees in a software engineering team, then generates a HTML webpage that displays a summary for each person. 
 
-Since testing is key to making code maintainable, a unit test for every part of its code is also written by the author and passed by the application.
+Since testing is key to making code maintainable, a unit test for every part of the application's code is also written by the author and passed by the application.
 
 ### Video
 
@@ -67,20 +68,10 @@ To install Inquirer dependencies, run:
 npm install inquirer
 ```
 
-For Jest:
+To install Jest:
 ```
 npm install --save-dev jest
 ```
-
-After Jest install, the following section is also added to the ```package.json``` to troubleshoot testing errors:
-```
-{
-  "scripts": {
-    "test": "jest"
-  }
-}
-```
-
 
 The application is invoked through the following command:
 
@@ -123,33 +114,17 @@ The application has the following features and functionalities:
 10. Validation on the employee information were added to ensure that user input is in the proper format.
 
 ### Required Classes
-1. As required in the assignment's README file, the application includes `Employee`, `Manager`, `Engineer`, and `Intern` classes. All classes pass the test when the command ```npm run test```
-is initialized.
+1. As required in the assignment's README file, the application includes `Employee`, `Manager`, `Engineer`, and `Intern` classes. All classes pass the test when the command ```npm run test``` is initialized.
 
-2. The first class is an `Employee` parent class with the following properties and methods:
-* `name`
-* `id`
-* `email`
-* `getName()`
-* `getId()`
-* `getEmail()`
-* `getRole()`&mdash;returns `'Employee'`
+2. The first class is an `Employee` parent class with the following properties and methods: `name`, `id`, `email`, `getName()`, `getId()`, `getEmail()`, and `getRole()`&mdash; which returns `'Employee'`.
 
 3. The other three classes extends `Employee`.
 
-4. In addition to `Employee`'s properties and methods, `Manager` will also have the following:
-* `officeNumber`
-* `getRole()`&mdash;overridden to return `'Manager'`
+4. In addition to `Employee`'s properties and methods, `Manager` also has the following: `officeNumber` and `getRole()`&mdash; which is overridden to return `'Manager'`.
 
-5. In addition to `Employee`'s properties and methods, `Engineer` will also have the following:
-* `github`&mdash;GitHub username
-* `getGithub()`
-* `getRole()`&mdash;overridden to return `'Engineer'`
+5. In addition to `Employee`'s properties and methods, `Engineer` also has the following: `github`&mdash;GitHub username, `getGithub()`, and `getRole()`&mdash; which is overridden to return `'Engineer'`.
 
-6. In addition to `Employee`'s properties and methods, `Intern` will also have the following:
-* `school`
-* `getSchool()`
-* `getRole()`&mdash;overridden to return `'Intern'`
+6. In addition to `Employee`'s properties and methods, `Intern` also has the following: `school`, `getSchool()`, and `getRole()`&mdash; which is overridden to return `'Intern'`.
 
 ---
 ## License
@@ -171,15 +146,15 @@ To contribute to this application:
 ```
 node index.js
 ```
-and responding to the series of prompts, including the option to finish building the team profile. In which case, the user will exit the application and a HTML file showcasing the team's profile is generated.
+and responding to the series of prompts, including the option to finish building the team profile. When the latter option is selected, the user will exit the application and a HTML file showcasing the team's profile is generated.
 
 Here is a [generated team profile sample in a manual test the author conducted,](./--) while here is the [generated HTML file from the walk-through video](./---). 
 
-2. The unit tests for the application's `Employee`, `Manager`, `Engineer`, and `Intern` classes are located in the `_tests_` directory. 
+2. The unit tests for the application's required classes: `Employee`, `Manager`, `Engineer`, and `Intern`, are located in the `_tests_` directory. 
 
 To run the unit tests, the application uses [Jest](https://www.npmjs.com/package/jest).
 
-To troubleshoot testing errors, the following section is added to the ```package.json``` after Jest install, for the test to run:
+To troubleshoot "No test specified" errors, where the test wouldn't run, the following section is added to the ```package.json``` after the Jest install:
 ```
 {
   "scripts": {
@@ -188,16 +163,18 @@ To troubleshoot testing errors, the following section is added to the ```package
 }
 ```
 
+(Note: The contents of ```package.json``` after the Inquirer and Jest installs were first deleted in this instance, then the above section was copied and pasted to the package, instead of merely adding it to the contents. This enabled the test to run.)
+
 The test is initialized by invoking the following command on the integrated terminal:
 ```
 npm run test
 ```
 
-All classes passed when the test is ran.
+All classes pass the test when ran.
 
 ---
 ## Credits
-The following resources were consulted and/or utilized in the development of this application:
+The following resources and relevant documentation were consulted and/or utilized in the development of this application:
 * Unit 10, Object-Oriented Programming reading materials, internet resources, and lectures, UCI Boot Camp.
 * [Inquirer](https://npmjs.com)
 * [Jest](https://jestjs.io/docs/getting-started)
@@ -207,6 +184,9 @@ The following resources were consulted and/or utilized in the development of thi
 * [fontawesome](https://fontawesome.com)
 * [cdnjs](https://cdnjs.com)
 * [Screencastify](https:screencastify.com)
+* [Open Source Initiative](https://opensource.org/licenses)
+* [Choose a License](https://choosealicense.com/)
+
 ---
 ## Author
 Jane Tiglao
