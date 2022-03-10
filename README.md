@@ -113,18 +113,8 @@ The application has the following features and functionalities:
 
 10. Validation on the employee information were added to ensure that user input is in the proper format.
 
-### Required Classes
-1. As required in the assignment's README file, the application includes `Employee`, `Manager`, `Engineer`, and `Intern` classes. All classes pass the test when the command ```npm run test``` is initialized.
+11. Required classes. As required in the assignment's README file, the application includes `Employee`, `Manager`, `Engineer`, and `Intern` classes. All classes pass the test when the command ```npm run test``` is initialized.
 
-2. The first class is an `Employee` parent class with the following properties and methods: `name`, `id`, `email`, `getName()`, `getId()`, `getEmail()`, and `getRole()`&mdash; which returns `'Employee'`.
-
-3. The other three classes extends `Employee`.
-
-4. In addition to `Employee`'s properties and methods, `Manager` also has the following: `officeNumber` and `getRole()`&mdash; which is overridden to return `'Manager'`.
-
-5. In addition to `Employee`'s properties and methods, `Engineer` also has the following: `github`&mdash;GitHub username, `getGithub()`, and `getRole()`&mdash; which is overridden to return `'Engineer'`.
-
-6. In addition to `Employee`'s properties and methods, `Intern` also has the following: `school`, `getSchool()`, and `getRole()`&mdash; which is overridden to return `'Intern'`.
 
 ---
 ## License
@@ -181,7 +171,7 @@ The following resources and relevant documentation were consulted and/or utilize
 * [Stackoverflow](https://stackoverflow.com) for troubleshooting testing, install, and package.json errors.
 * [Bootstrap](https://getbootstrap.com)
 * [jQuery](https://jquery.com)
-* [fontawesome](https://fontawesome.com)
+* [Icons8](https://icons8.com)
 * [cdnjs](https://cdnjs.com)
 * [Screencastify](https:screencastify.com)
 * [Open Source Initiative](https://opensource.org/licenses)
