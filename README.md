@@ -138,7 +138,7 @@ The application has the following features and functionalities:
 
 * Here is the image of [the html file that was generated during the demo video:](/assets/images/image7_demo-generated-file.png)
 
-<img width="1374" alt="image7_demo-generated-file" src="https://user-images.githubusercontent.com/94569484/157879370-9e401b0a-fc9e-4504-b607-14c0d804cfe6.png">
+![image7_demo-generated-file](https://user-images.githubusercontent.com/94569484/157884125-dab8a332-9267-4c5c-8f8f-1be380933c77.png)
 
 
 11. When the user clicks the email address on the generated HTML file, the user's default email program opens and populates the TO: field of the email with the address.
