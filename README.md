@@ -12,12 +12,6 @@ This is a Node.js command-line interface (CLI) application that takes in informa
 
 Since testing is key to making code maintainable, a unit test for every part of the application's code is also written and passed by the application.
 
-The application runs on Visual Studio Code, with the generated HTML file having the following interface when opened on a web browser:
-
-![image11_teamprofile](https://user-images.githubusercontent.com/94569484/157873083-3d672bbe-e4cd-4fae-88b3-d6b794512d2a.png)
-
-[team profile](/assets/images/image11_teamprofile.png)
-
 
 ### Video
 
