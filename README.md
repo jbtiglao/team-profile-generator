@@ -10,7 +10,7 @@ A Unit 10, Object-Oriented Programming (OOP) assignment.
 
 This is a Node.js command-line interface (CLI) application that takes in information about employees in a software engineering team, then generates a HTML webpage that displays a summary for each person. 
 
-Since testing is key to making code maintainable, a unit test for every part of the application's code is also written by the author and passed by the application.
+Since testing is key to making code maintainable, a unit test for every part of the application's code is also written and passed by the application.
 
 The application runs on Visual Studio Code, with the generated HTML file having the following interface when opened on a web browser:
 
