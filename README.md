@@ -117,7 +117,7 @@ The application has the following features and functionalities:
 
 5. When the user enters the last engineer prompt response, all engineer information will appear or are logged on the terminal. 
 
-6. When the new engineer information is added and pushed to the repository, the user is taken back to the menu. This means he/she could add more engineers and/or interns, depending on the number of team members he/she has. Otherwise, the user can opt to finish building the team and exit the application.
+6. When the new engineer information is added and pushed to the repository, the user is taken back to the menu. This means the user can add more engineers and/or interns, depending on the number of team members the user or manager has. Otherwise, the user can opt to finish building the team and exit the application.
 
 <img width="933" alt="image3_engineerprompts" src="https://user-images.githubusercontent.com/94569484/157872414-00967608-6206-451b-95e2-6ced2cfc890f.png">
 
@@ -125,7 +125,7 @@ The application has the following features and functionalities:
 
 7. Should the user choose to add an intern, the user is prompted with the following information: intern's name, employee ID, email address, and school. 
 
-8. When the user enters the last intern prompt response, all manager information will appear or are logged on the terminal. 
+8. When the user enters the last intern prompt response, all intern information will appear or are logged on the terminal. 
 
 9. When the new intern information is added and pushed to the repository, the user is taken back to the menu, where the user could add more team members, i.e., Engineer and/or Intern, or finish building the team and exit the application.
 
