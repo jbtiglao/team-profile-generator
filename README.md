@@ -137,13 +137,18 @@ The application has the following features and functionalities:
 ```
 ./dist/index.html
 ```
-* Here is a [sample generated html file.]()
-
 <img width="263" alt="image5_dist_html" src="https://user-images.githubusercontent.com/94569484/157872562-df8c3812-b98c-42be-9dff-dfd4a1060fd3.png">
+[dist folder, index.html](/assets/images/image5_dist_html)
+
+* Here is a [sample generated html file.](https://github.com/jbtiglao/team-profile-generator/blob/main/src/generateHTML.js)
+
+![image11_teamprofile](https://user-images.githubusercontent.com/94569484/157878082-15c76432-d229-45ee-a618-eb3b94de2cf1.png)
+[sample generated file](assets/images/image11_teamprofile.png)
+
 
 * Here is the image of [the html file that was generated during the demo video](/assets/images/image7_demo-generated-file.png)
 
-11. When the user clicks the email address on the generated HTML file, the user's default email program opens and populates the TO field of the email with the address.
+11. When the user clicks the email address on the generated HTML file, the user's default email program opens and populates the TO: field of the email with the address.
 
 
 <img width="993" alt="image8_users-email" src="https://user-images.githubusercontent.com/94569484/157872816-d6f8d5ea-45bb-4280-ab07-3a76b7ec72a5.png">
@@ -230,6 +235,7 @@ The following resources and relevant documentation were consulted and/or utilize
 * [Icons8](https://icons8.com)
 * [cdnjs](https://cdnjs.com)
 * [Screencastify](https:screencastify.com)
+* [Google Drive](https://drive.google.com/)
 * [Open Source Initiative](https://opensource.org/licenses)
 * [Choose a License](https://choosealicense.com/)
 
