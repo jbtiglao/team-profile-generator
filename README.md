@@ -21,14 +21,14 @@ The application runs on Visual Studio Code, with the generated HTML file having 
 
 ### Video
 
+To see how the application and its functionalities work, watch or download the [demonstration video here.](https://drive.google.com/file/d/12XWhOkCuVuHm7El9IwYjDrj1djG1kpIZ/view)
 
 ![Image1_Demo](https://user-images.githubusercontent.com/94569484/157871887-8d6d01e2-b2ce-459c-9449-faf738e304f6.png)
 
 [app demo](/assets/images/image1_demo.png)
 
-To see how the application and its functionalities work, watch or download the [demonstration video here.](https://drive.google.com/file/d/12XWhOkCuVuHm7El9IwYjDrj1djG1kpIZ/view)
-
 (Note: Video quality is better when the video is downloaded and viewed locally, than when played online.)
+
 
 ### Preliminaries
 1. There is no starter code for this assignment.
