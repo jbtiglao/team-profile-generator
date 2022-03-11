@@ -8,15 +8,19 @@ A Unit 10, Object-Oriented Programming (OOP) assignment.
 ---
 ## Description
 
-![image11_teamprofile](https://user-images.githubusercontent.com/94569484/157873083-3d672bbe-e4cd-4fae-88b3-d6b794512d2a.png)
-
-[team profile](/assets/images/image11_teamprofile.png)
-
 This is a Node.js command-line interface (CLI) application that takes in information about employees in a software engineering team, then generates a HTML webpage that displays a summary for each person. 
 
 Since testing is key to making code maintainable, a unit test for every part of the application's code is also written by the author and passed by the application.
 
+The application runs on Visual Studio Code, with the generated HTML file having the following interface when opened on a web browser:
+
+![image11_teamprofile](https://user-images.githubusercontent.com/94569484/157873083-3d672bbe-e4cd-4fae-88b3-d6b794512d2a.png)
+
+[team profile](/assets/images/image11_teamprofile.png)
+
+
 ### Video
+
 
 ![Image1_Demo](https://user-images.githubusercontent.com/94569484/157871887-8d6d01e2-b2ce-459c-9449-faf738e304f6.png)
 
