@@ -136,7 +136,7 @@ The application has the following features and functionalities:
 ![image11_teamprofile](https://user-images.githubusercontent.com/94569484/157878082-15c76432-d229-45ee-a618-eb3b94de2cf1.png)
 
 
-* Here is the image of [the html file that was generated during the demo video:](/assets/images/image7_demo-generated-file.png)
+* Here is the [html file generated during the demonstration video.](https://github.com/jbtiglao/team-profile-generator/blob/main/dist/demo_index.html) When opened on a web browser, the generated team profile look like this: 
 
 ![image7_demo-generated-file](https://user-images.githubusercontent.com/94569484/157884125-dab8a332-9267-4c5c-8f8f-1be380933c77.png)
 
