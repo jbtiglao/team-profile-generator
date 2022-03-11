@@ -14,9 +14,11 @@ Since testing is key to making code maintainable, a unit test for every part of 
 
 ### Video
 
-To see how the application and its functionalities work, watch or download the demonstration video here](https://screencastify.com)
+[app demo](./assets/images/image1_demo.png)
 
-(Note: Video quality is better when the video is downloaded and viewed locally, than when played on Screencastify.)
+To see how the application and its functionalities work, watch or download the [demonstration video here.](https://drive.google.com/file/d/12XWhOkCuVuHm7El9IwYjDrj1djG1kpIZ/view)
+
+(Note: Video quality is better when the video is downloaded and viewed locally, than when played online.)
 
 ### Preliminaries
 1. There is no starter code for this assignment.
@@ -93,30 +95,53 @@ The application has the following features and functionalities:
 
 1. Upon initializing the application, the user or manager is prompted to enter the following information about the team manager: name, employee ID, email address, and office number.
 
-2. When the manager's information is added and pushed to the repository, the user is presented with the menu, which gives the user the option to add more team members, i.e., Engineer and/or Intern, or to finish building his/her team. In which case, the user will exit the application and a HTML file containing the information entered by the user is generated.
+2. When the user enters the last manager prompt response, all manager information will appear or are logged on the terminal. The same is true when the user enters all engineer and intern prompt reponses. 
 
-3. Should the user choose to add an engineer, the user is prompted to enter the following information: engineer's name, employee ID, email address, and GitHub username.
+3. When the manager's information is added and pushed to the repository, the user is presented with the menu, which gives the user the option to add more team members, i.e., Engineer and/or Intern, or to finish building his/her team. In which case, the user will exit the application and a HTML file containing the information entered by the user is generated.
 
-4. When the new engineer information is added and pushed to the repository, the user is taken back to the menu. This means he/she could add more engineers and/or interns, depending on the number of team members he/she has. Otherwise, the user can opt to finish building the team and exit the application.
+[manager prompts and menu](./assets/images/image2_managerprompts.png)
 
-5. Should the user choose to add an intern, the user is prompted with the following information: intern's name, employee ID, email address, and school. 
+4. Should the user choose to add an engineer, the user is prompted to enter the following information: engineer's name, employee ID, email address, and GitHub username.
 
-6. When the new intern information is added and pushed to the repository, the user is taken back to the menu, where the user could add more team members, i.e., Engineer and/or Intern, or finish building the team and exit the application.
+5. When the new engineer information is added and pushed to the repository, the user is taken back to the menu. This means he/she could add more engineers and/or interns, depending on the number of team members he/she has. Otherwise, the user can opt to finish building the team and exit the application.
 
-7. Should the user choose to finish building the team, the user will exit the application and a HTML file is generated. The generated HTML file displays the team roster, including a summary of information on each team member whose employee data was entered in the application. This can be accessed and viewed on a browser from the following file:
+[engineer prompts](./assets/images/image3_engineerprompts.png)
+
+6. Should the user choose to add an intern, the user is prompted with the following information: intern's name, employee ID, email address, and school. 
+
+7. When the new intern information is added and pushed to the repository, the user is taken back to the menu, where the user could add more team members, i.e., Engineer and/or Intern, or finish building the team and exit the application.
+
+[intern prompts](./assets/images/image4_internprompts.png)
+
+8. Should the user choose to finish building the team, the user will exit the application and a HTML file is generated. The generated HTML file displays the team roster, including a summary of information on each team member whose employee data was entered in the application. This can be accessed and viewed on a browser from the following file:
 ```
 ./dist/index.html
 ```
-8.  When the user clicks the email address on the generated HTML file, the user's default email program opens and populates the TO field of the email with the address.
+* Here is a [sample generated html file.]()
 
-9. When the user clicks on the GitHub username, the GitHub profile opens in a new tab.
+* Here is the [the html file that was generated during the demo video](./assets/images/image7_demo-generated-file.png)
 
-10. Validation on the employee information were added to ensure that user input is in the proper format. 
+9.  When the user clicks the email address on the generated HTML file, the user's default email program opens and populates the TO field of the email with the address.
 
-11. When the user fails to enter the employee's name, employee ID, GitHub username, and school, the user will be prompted to enter the same. Meanwhile, failure to enter the correct office number or email format will prompt the user to enter the office number or valid email.
+[user's email](./assets/images/image8_users-email.png)
 
-11. Required classes. The application includes `Employee`, `Manager`, `Engineer`, and `Intern` classes. All classes pass the test when the command ```npm run test``` is initialized.
+10. When the user clicks on the GitHub username, the GitHub profile opens in a new tab.
 
+[github link](.assets/images/image9_githublink.png)
+
+11. Validation on the employee information were added to ensure that user input is in the proper format. 
+
+* When the user fails to enter the employee's name, employee ID, GitHub username, and school, the user is prompted to enter the same. 
+
+* When the user fails to enter a number or numbers for the office number, the user is prompted to enter a number/numbers.
+
+* When the user fails to enter the correct email format, the user is prompted to enter a valid email.
+
+(Note: The user may enter letters, numbers, or a combination of both for the employee ID.)
+
+12. Required classes. The application includes `Employee`, `Manager`, `Engineer`, and `Intern` classes. All classes pass the test when the command ```npm run test``` is initialized.
+
+[tests](./assets/images/image10_tests.png)
 
 ---
 ## License
