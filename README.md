@@ -14,6 +14,8 @@ Since testing is key to making code maintainable, a unit test for every part of 
 
 ### Video
 
+![Image1_Demo](https://user-images.githubusercontent.com/94569484/157871887-8d6d01e2-b2ce-459c-9449-faf738e304f6.png)
+
 [app demo](./assets/images/image1_demo.png)
 
 To see how the application and its functionalities work, watch or download the [demonstration video here.](https://drive.google.com/file/d/12XWhOkCuVuHm7El9IwYjDrj1djG1kpIZ/view)
