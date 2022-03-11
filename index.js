@@ -23,7 +23,7 @@ function managerQuestions() {
                     if (nameInput) {
                         return true;
                     } else {
-                        console.log("Please enter the manager's name.");
+                        console.log ("Please enter the manager's name.");
                         return false;
                     }
                 }
@@ -32,11 +32,11 @@ function managerQuestions() {
                 type: "input",
                 name: "id",
                 message: "What is the manager's employee ID?",
-                validate: idInput => {
-                    if (idInput) {
+                validate: nameInput => {
+                    if (nameInput) {
                         return true;
                     } else {
-                        console.log("Please enter the manager's employee ID.");
+                        console.log ("Please enter the manager's employee ID.");
                         return false;
                     }
                 }
@@ -45,11 +45,12 @@ function managerQuestions() {
                 type: "input",
                 name: "email",
                 message: "What is the the manager's email address?",
-                validate: emailInput => {
-                    if (emailInput) {
+                validate: email => {
+                    valid = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)
+                    if (valid) {
                         return true;
                     } else {
-                        console.log("You must enter the manager's email address.");
+                        console.log ("You must enter a valid email address.");
                         return false;
                     }
                 }
@@ -60,7 +61,7 @@ function managerQuestions() {
                 message: "What is the manager's office number?",
                 validate: nameInput => {
                     if (isNaN(nameInput)) {
-                        console.log("Please enter the manager's office number.");
+                        console.log ("Please enter the manager's office number.");
                         return false;
                     } else {
                         return true;
@@ -124,7 +125,7 @@ async function engineerQuestions() {
                 if (nameInput_1) {
                     return true;
                 } else {
-                    console.log("Please enter the engineer's name.");
+                    console.log ("Please enter the engineer's name.");
                     return false;
                 }
             }
@@ -137,7 +138,7 @@ async function engineerQuestions() {
                 if (nameInput_3) {
                     return true;
                 } else {
-                    console.log("Please enter the engineer's employee ID.");
+                    console.log ("Please enter the engineer's employee ID.")
                     return false;
                 }
             }
@@ -146,11 +147,12 @@ async function engineerQuestions() {
             type: "input",
             name: "email",
             message: "What is the engineer's email address?",
-            validate: nameInput_5 => {
-                if (nameInput_5) {
+            validate: email => {
+                valid = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)
+                if (valid) {
                     return true;
                 } else {
-                    console.log("Please enter the engineer's email address.");
+                    console.log ("You must enter a valid email address.");
                     return false;
                 }
             }
@@ -163,7 +165,7 @@ async function engineerQuestions() {
                 if (nameInput_7) {
                     return true;
                 } else {
-                    console.log("Please enter the engineer's GitHub username.");
+                    console.log ("Please enter the engineer's GitHub username.");
                     return false;
                 }
             }
@@ -192,7 +194,7 @@ function internQuestions() {
                     if (nameInput) {
                         return true;
                     } else {
-                        console.log("Please enter the intern's name");
+                        console.log ("Please enter the intern's name");
                         return false;
                     }
                 }
@@ -205,7 +207,7 @@ function internQuestions() {
                     if (nameInput) {
                         return true;
                     } else {
-                        console.log("Please enter the intern's employee ID.");
+                        console.log ("Please enter the intern's employee ID.")
                         return false;
                     }
                 }
@@ -214,11 +216,12 @@ function internQuestions() {
                 type: "input",
                 name: "email",
                 message: "What is the intern's email address?",
-                validate: nameInput => {
-                    if (nameInput) {
+                validate: email => {
+                    valid = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)
+                    if (valid) {
                         return true;
                     } else {
-                        console.log("Please enter the intern's email address.");
+                        console.log ("You must enter a valid email address.");
                         return false;
                     }
                 }
