@@ -1,7 +1,7 @@
 
   
 # Team Profile Generator
-A Unit 10, Object-Oriented Programming (OOP) assignment.
+A Unit 10 Object-Oriented Programming (OOP) assignment.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
