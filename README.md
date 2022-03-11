@@ -16,14 +16,14 @@ Since testing is key to making code maintainable, a unit test for every part of 
 
 To see how the application and its functionalities work, watch or download the demonstration video here](https://screencastify.com)
 
-(Note: Video quality is better when the video is downloaded and viewed locally, than when played directly on Screencastify.)
+(Note: Video quality is better when the video is downloaded and viewed locally, than when played on Screencastify.)
 
 ### Preliminaries
 1. There is no starter code for this assignment.
 
-2. A mock-up of the generated HTML showing the application's appearance and functionality is provided. However, the styling in the image is just an example and students can add their own styling.
+2. A mock-up of the generated HTML showing the application's appearance and functionalities is provided. However, the styling in the image is just an example and the author has added her own styling.
   
-3. The application follows this directory structure, as indicated in the assignment's README file:
+3. The application follows the following directory structure, as indicated in the assignment's README file:
 
 ```md
 .
@@ -41,7 +41,7 @@ To see how the application and its functionalities work, watch or download the d
 └── package.json           
 ```
 
-4. Before installing any dependencies, a `.gitignore` file was created. It includes `node_modules/` and `.DS_Store`, while `dist` was removed from the list so Git could track this folder and include it when it is pushed to the application's repository.
+4. Before installing any dependencies, a `.gitignore` file was first created. It includes `node_modules/` and `.DS_Store`, while `dist` was removed from the list so Git could track this folder and include it when it is pushed to the application's repository.
 
 ---
 ## Table of Contents
@@ -101,9 +101,9 @@ The application has the following features and functionalities:
 
 5. Should the user choose to add an intern, the user is prompted with the following information: intern's name, employee ID, email address, and school. 
 
-6. When the new intern information is added and pushed to the repository, the user is taken back to the menu, where he/she could add more team members, i.e., Engineer and/or Intern, or finish building the team and exit the application.
+6. When the new intern information is added and pushed to the repository, the user is taken back to the menu, where the user could add more team members, i.e., Engineer and/or Intern, or finish building the team and exit the application.
 
-7. Should the user choose to finish building the team, the user will exit the application and a HTML file that displays the team roster, including a summary of information on each team member, is generated. This can be accessed and viewed on a browser from the following file:
+7. Should the user choose to finish building the team, the user will exit the application and a HTML file is generated. The generated HTML file displays the team roster, including a summary of information on each team member whose employee data was entered in the application. This can be accessed and viewed on a browser from the following file:
 ```
 ./dist/index.html
 ```
@@ -111,9 +111,11 @@ The application has the following features and functionalities:
 
 9. When the user clicks on the GitHub username, the GitHub profile opens in a new tab.
 
-10. Validation on the employee information were added to ensure that user input is in the proper format.
+10. Validation on the employee information were added to ensure that user input is in the proper format. 
 
-11. Required classes. As required in the assignment's README file, the application includes `Employee`, `Manager`, `Engineer`, and `Intern` classes. All classes pass the test when the command ```npm run test``` is initialized.
+11. When the user fails to enter the employee's name, employee ID, GitHub username, and school, the user will be prompted to enter the same. Meanwhile, failure to enter the correct office number or email format will prompt the user to enter the office number or valid email.
+
+11. Required classes. The application includes `Employee`, `Manager`, `Engineer`, and `Intern` classes. All classes pass the test when the command ```npm run test``` is initialized.
 
 
 ---
@@ -132,7 +134,7 @@ To contribute to this application:
 
 ---
 ## Tests
-1. The application uses [Inquirer](https://www.npmjs.com/package/inquirer) for collecting input from the user. The functionalities of the application were tested manually, by opening the application in the integrated terminal, entering
+1. The application uses [Inquirer](https://www.npmjs.com/package/inquirer) for collecting input from the user. The functionalities of the application were tested manually, by opening the application in the integrated terminal, running
 ```
 node index.js
 ```
