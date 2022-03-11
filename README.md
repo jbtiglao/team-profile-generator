@@ -8,6 +8,10 @@ A Unit 10, Object-Oriented Programming (OOP) assignment.
 ---
 ## Description
 
+![image11_teamprofile](https://user-images.githubusercontent.com/94569484/157873083-3d672bbe-e4cd-4fae-88b3-d6b794512d2a.png)
+
+[team profile](/assets/images/image11_teamprofile.png)
+
 This is a Node.js command-line interface (CLI) application that takes in information about employees in a software engineering team, then generates a HTML webpage that displays a summary for each person. 
 
 Since testing is key to making code maintainable, a unit test for every part of the application's code is also written by the author and passed by the application.
@@ -101,17 +105,23 @@ The application has the following features and functionalities:
 
 3. When the manager's information is added and pushed to the repository, the user is presented with the menu, which gives the user the option to add more team members, i.e., Engineer and/or Intern, or to finish building his/her team. In which case, the user will exit the application and a HTML file containing the information entered by the user is generated.
 
+<img width="1362" alt="image2_managerprompts" src="https://user-images.githubusercontent.com/94569484/157872377-3161fce4-a835-4236-8fb0-73ee06ce59d2.png">
+
 [manager prompts and menu](/assets/images/image2_managerprompts.png)
 
 4. Should the user choose to add an engineer, the user is prompted to enter the following information: engineer's name, employee ID, email address, and GitHub username.
 
 5. When the new engineer information is added and pushed to the repository, the user is taken back to the menu. This means he/she could add more engineers and/or interns, depending on the number of team members he/she has. Otherwise, the user can opt to finish building the team and exit the application.
 
+<img width="933" alt="image3_engineerprompts" src="https://user-images.githubusercontent.com/94569484/157872414-00967608-6206-451b-95e2-6ced2cfc890f.png">
+
 [engineer prompts](/assets/images/image3_engineerprompts.png)
 
 6. Should the user choose to add an intern, the user is prompted with the following information: intern's name, employee ID, email address, and school. 
 
 7. When the new intern information is added and pushed to the repository, the user is taken back to the menu, where the user could add more team members, i.e., Engineer and/or Intern, or finish building the team and exit the application.
+
+<img width="935" alt="image4_internprompts" src="https://user-images.githubusercontent.com/94569484/157872454-abc2dc4d-1368-4fb4-9517-4bcf20e718b4.png">
 
 [intern prompts](/assets/images/image4_internprompts.png)
 
@@ -121,13 +131,20 @@ The application has the following features and functionalities:
 ```
 * Here is a [sample generated html file.]()
 
-* Here is the [the html file that was generated during the demo video](/assets/images/image7_demo-generated-file.png)
+<img width="263" alt="image5_dist_html" src="https://user-images.githubusercontent.com/94569484/157872562-df8c3812-b98c-42be-9dff-dfd4a1060fd3.png">
+
+* Here is the image of [the html file that was generated during the demo video](/assets/images/image7_demo-generated-file.png)
 
 9.  When the user clicks the email address on the generated HTML file, the user's default email program opens and populates the TO field of the email with the address.
+
+
+<img width="993" alt="image8_users-email" src="https://user-images.githubusercontent.com/94569484/157872816-d6f8d5ea-45bb-4280-ab07-3a76b7ec72a5.png">
 
 [user's email](/assets/images/image8_users-email.png)
 
 10. When the user clicks on the GitHub username, the GitHub profile opens in a new tab.
+
+<img width="1364" alt="image9_githublink" src="https://user-images.githubusercontent.com/94569484/157872877-562eebed-1e47-4d6c-afd9-f28337ac71de.png">
 
 [github link](/assets/images/image9_githublink.png)
 
@@ -142,6 +159,8 @@ The application has the following features and functionalities:
 (Note: The user may enter letters, numbers, or a combination of both for the employee ID.)
 
 12. Required classes. The application includes `Employee`, `Manager`, `Engineer`, and `Intern` classes. All classes pass the test when the command ```npm run test``` is initialized.
+
+<img width="1440" alt="image10_tests" src="https://user-images.githubusercontent.com/94569484/157872923-82b85e1e-4042-463e-9c88-ff396ad8ffc6.png">
 
 [tests](/assets/images/image10_tests.png)
 
