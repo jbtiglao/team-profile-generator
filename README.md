@@ -97,7 +97,7 @@ Please refer to the walk-through video above, as well as the following instructi
 ### Features
 The application has the following features and functionalities:
 
-1. Upon initializing the application, the user or manager is prompted to enter the following information about the team manager: name, employee ID, email address, and office number.
+1. Upon initializing the application on Visual Studio Code, the user or manager is prompted to enter the following information about the team manager: name, employee ID, email address, and office number.
 
 2. When the user enters the last manager prompt response, all manager information will appear or are logged on the terminal. 
 
@@ -134,26 +134,32 @@ The application has the following features and functionalities:
 <img width="263" alt="image5_dist_html" src="https://user-images.githubusercontent.com/94569484/157872562-df8c3812-b98c-42be-9dff-dfd4a1060fd3.png">
 [dist folder, index.html](/assets/images/image5_dist_html)
 
-* Here is a [sample generated html file.](https://github.com/jbtiglao/team-profile-generator/blob/main/src/generateHTML.js)
+* Here is a [generated html file.](https://github.com/jbtiglao/team-profile-generator/blob/main/src/generateHTML.js) 
+
+* When opened on a web browser, the generated html file has the following interface:
 
 ![image11_teamprofile](https://user-images.githubusercontent.com/94569484/157878082-15c76432-d229-45ee-a618-eb3b94de2cf1.png)
 [sample generated file](assets/images/image11_teamprofile.png)
 
 
-* Here is the image of [the html file that was generated during the demo video](/assets/images/image7_demo-generated-file.png)
+* Here is the image of [the html file that was generated during the demo video:](/assets/images/image7_demo-generated-file.png)
+
+<img width="1374" alt="image7_demo-generated-file" src="https://user-images.githubusercontent.com/94569484/157879370-9e401b0a-fc9e-4504-b607-14c0d804cfe6.png">
+
 
 11. When the user clicks the email address on the generated HTML file, the user's default email program opens and populates the TO: field of the email with the address.
-
 
 <img width="993" alt="image8_users-email" src="https://user-images.githubusercontent.com/94569484/157872816-d6f8d5ea-45bb-4280-ab07-3a76b7ec72a5.png">
 
 [user's email](/assets/images/image8_users-email.png)
+
 
 12. When the user clicks on the GitHub username, the GitHub profile opens in a new tab.
 
 <img width="1364" alt="image9_githublink" src="https://user-images.githubusercontent.com/94569484/157872877-562eebed-1e47-4d6c-afd9-f28337ac71de.png">
 
 [github link](/assets/images/image9_githublink.png)
+
 
 13. Validation on the employee information were added to ensure that user input is in the proper format. 
 
@@ -164,6 +170,7 @@ The application has the following features and functionalities:
 * When the user fails to enter the correct email format, the user is prompted to enter a valid email.
 
 (Note: The user may enter letters, numbers, or a combination of both for the employee ID.)
+
 
 14. Required classes. The application includes `Employee`, `Manager`, `Engineer`, and `Intern` classes. All classes pass the test when the command ```npm run test``` is initialized.
 
