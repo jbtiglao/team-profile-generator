@@ -189,8 +189,6 @@ node index.js
 ```
 and responding to the series of prompts, including the option to finish building the team profile. When the latter option is selected, the user will exit the application and a HTML file showcasing the team's profile is generated.
 
-Here is a [generated team profile sample in a manual test the author conducted,](./--) while here is the [generated HTML file from the walk-through video](./---). 
-
 2. The unit tests for the application's required classes: `Employee`, `Manager`, `Engineer`, and `Intern`, are located in the `_tests_` directory. 
 
 To run the unit tests, the application uses [Jest](https://www.npmjs.com/package/jest).
