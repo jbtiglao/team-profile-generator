@@ -16,7 +16,7 @@ Since testing is key to making code maintainable, a unit test for every part of 
 
 ![Image1_Demo](https://user-images.githubusercontent.com/94569484/157871887-8d6d01e2-b2ce-459c-9449-faf738e304f6.png)
 
-[app demo](./assets/images/image1_demo.png)
+[app demo](/assets/images/image1_demo.png)
 
 To see how the application and its functionalities work, watch or download the [demonstration video here.](https://drive.google.com/file/d/12XWhOkCuVuHm7El9IwYjDrj1djG1kpIZ/view)
 
@@ -101,19 +101,19 @@ The application has the following features and functionalities:
 
 3. When the manager's information is added and pushed to the repository, the user is presented with the menu, which gives the user the option to add more team members, i.e., Engineer and/or Intern, or to finish building his/her team. In which case, the user will exit the application and a HTML file containing the information entered by the user is generated.
 
-[manager prompts and menu](./assets/images/image2_managerprompts.png)
+[manager prompts and menu](/assets/images/image2_managerprompts.png)
 
 4. Should the user choose to add an engineer, the user is prompted to enter the following information: engineer's name, employee ID, email address, and GitHub username.
 
 5. When the new engineer information is added and pushed to the repository, the user is taken back to the menu. This means he/she could add more engineers and/or interns, depending on the number of team members he/she has. Otherwise, the user can opt to finish building the team and exit the application.
 
-[engineer prompts](./assets/images/image3_engineerprompts.png)
+[engineer prompts](/assets/images/image3_engineerprompts.png)
 
 6. Should the user choose to add an intern, the user is prompted with the following information: intern's name, employee ID, email address, and school. 
 
 7. When the new intern information is added and pushed to the repository, the user is taken back to the menu, where the user could add more team members, i.e., Engineer and/or Intern, or finish building the team and exit the application.
 
-[intern prompts](./assets/images/image4_internprompts.png)
+[intern prompts](/assets/images/image4_internprompts.png)
 
 8. Should the user choose to finish building the team, the user will exit the application and a HTML file is generated. The generated HTML file displays the team roster, including a summary of information on each team member whose employee data was entered in the application. This can be accessed and viewed on a browser from the following file:
 ```
@@ -121,15 +121,15 @@ The application has the following features and functionalities:
 ```
 * Here is a [sample generated html file.]()
 
-* Here is the [the html file that was generated during the demo video](./assets/images/image7_demo-generated-file.png)
+* Here is the [the html file that was generated during the demo video](/assets/images/image7_demo-generated-file.png)
 
 9.  When the user clicks the email address on the generated HTML file, the user's default email program opens and populates the TO field of the email with the address.
 
-[user's email](./assets/images/image8_users-email.png)
+[user's email](/assets/images/image8_users-email.png)
 
 10. When the user clicks on the GitHub username, the GitHub profile opens in a new tab.
 
-[github link](.assets/images/image9_githublink.png)
+[github link](/assets/images/image9_githublink.png)
 
 11. Validation on the employee information were added to ensure that user input is in the proper format. 
 
@@ -143,7 +143,7 @@ The application has the following features and functionalities:
 
 12. Required classes. The application includes `Employee`, `Manager`, `Engineer`, and `Intern` classes. All classes pass the test when the command ```npm run test``` is initialized.
 
-[tests](./assets/images/image10_tests.png)
+[tests](/assets/images/image10_tests.png)
 
 ---
 ## License
