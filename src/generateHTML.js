@@ -27,13 +27,13 @@ const generateEngineer = function (engineer) {
         <div class="card h-100">
             <div class="card-header">
                 <h3 class="name">${engineer.name}</h3>
-                <h4 class="role"><img src="https://img.icons8.com/external-flaticons-flat-flat-icons/30/000000/external-laptop-digital-nomading-relocation-flaticons-flat-flat-icons.png"/> Engineer</h4>
+                <h4 class="role"><img src="https://img.icons8.com/external-flaticons-flat-flat-icons/30/000000/external-laptop-digital-nomading-relocation-flaticons-flat-flat-icons.png"/>Engineer</h4>
             </div>
 
             <div class="card-body">
                 <p class="id">ID: ${engineer.id}</p>
                 <p class="email">Email: <a href="mailto:${engineer.email}">${engineer.email}</a></p>
-                <p class="github">GitHub: <a href="https://github.com/${engineer.github}">${engineer.github}</a></p>
+                <p class="github">GitHub: <a href="https://github.com/${engineer.github}" target="_blank">${engineer.github}</a></p>
             </div>
            
         </div>
