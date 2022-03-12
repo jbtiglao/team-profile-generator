@@ -27,7 +27,7 @@ To see how the application and its functionalities work, watch or download the [
 
 2. A mock-up of the generated HTML showing the application's appearance and functionalities is provided. However, the styling in the image is just an example and the author has added her own styling.
   
-3. The application follows the following directory structure, as indicated in the assignment's README file:
+3. The application follows the following directory structure, in accordance with in the assignment's README file:
 
 ```md
 .
@@ -129,14 +129,12 @@ The application has the following features and functionalities:
 <img width="263" alt="image5_dist_html" src="https://user-images.githubusercontent.com/94569484/157872562-df8c3812-b98c-42be-9dff-dfd4a1060fd3.png">
 
 
-* Here is a [generated html file.](https://github.com/jbtiglao/team-profile-generator/blob/main/src/generateHTML.js) 
-
-* When opened on a web browser, the generated html file has the following interface:
+* Here is a sample [generated html file](https://github.com/jbtiglao/team-profile-generator/blob/main/src/generateHTML.js). When opened in a web browser, it has the following interface:
 
 ![image11_teamprofile](https://user-images.githubusercontent.com/94569484/157878082-15c76432-d229-45ee-a618-eb3b94de2cf1.png)
 
 
-* Here is the [html file generated during the demonstration video.](https://github.com/jbtiglao/team-profile-generator/blob/main/dist/demo_index.html) When opened on a web browser, the generated team profile looks like this: 
+* Here is the [html file generated in the demonstration video.](https://github.com/jbtiglao/team-profile-generator/blob/main/dist/demo_index.html) When opened in a web browser, it has the following interface: 
 
 ![image7_demo-generated-file](https://user-images.githubusercontent.com/94569484/157884125-dab8a332-9267-4c5c-8f8f-1be380933c77.png)
 
